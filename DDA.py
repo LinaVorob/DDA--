@@ -82,10 +82,7 @@ class LoginDialog(QtGui.QDialog):
         self.end1 = QtGui.QLineEdit(self)
         self.beginn = QtGui.QLabel (')', self)
         self.endn = QtGui.QLabel (')', self)
-        t1 = self.begin.text()
-        t2 = self.end.text()
-        t3 = self.begin1.text()
-        t4 = self.end1.text()    
+         
         
         buttons = QtGui.QDialogButtonBox(QtGui.QDialogButtonBox.Ok | QtGui.QDialogButtonBox.Cancel,
                 QtCore.Qt.Horizontal, self)
