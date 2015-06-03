@@ -31,10 +31,6 @@ class MainWindow(QtGui.QMainWindow):  # создаем главное окно.
                                            QtGui.QMessageBox.No,
                                            QtGui.QMessageBox.Yes)
         if reply == QtGui.QMessageBox.Yes:
-            self.message('And remember:\n',
-                         'Reality is an illusion, the universe is a hologram',
-                         'buy gold, bye!',
-                         'Secret')
             event.accept()
         else:
             event.ignore()
